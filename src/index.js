@@ -3,15 +3,7 @@ import ReactDOM from 'react-dom';
 
 class App extends React.Component {
 
-    constructor(props) {
-        super(props);
-        //Initialize state
-        this.state = { 
-            lat:null,
-            errorMessage: ''
-        };
-        
-    }
+    state = { lat: null, errorMessage: ''};
 
     componentDidMount() {
         //Set state
